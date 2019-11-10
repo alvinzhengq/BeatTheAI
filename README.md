@@ -14,7 +14,7 @@ Website Backend: Alvin Zheng, Abhinav Palacharla
 
 # Table of Contents:
 
-AI: Contains the AI and everything used to train it
+RCNN Model: Contains the AI and everything used to train it
 
 BeatTheAIBackend: Contains the flask server used to host the game, and all frontend elements
 
