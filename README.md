@@ -19,6 +19,5 @@ RCNN Model: Contains the AI and everything used to train it
 BeatTheAIBackend: Contains the flask server used to host the game, and all frontend elements
 
 XMLlabel: Python program used to automate label creation for dataset  
-
-
-Copyright © 2019 DN Computing Club
+  
+<br>Copyright © 2019 DN Computing Club
