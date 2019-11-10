@@ -1,6 +1,8 @@
 
 # BeatTheAI RCNN Model
-This is the primary folder used to train the Doodle AI. It contains the dataset, exported model, labels, etc. Pretty much everything used during the process of training the model.
+This is the primary folder used to train the Doodle AI. It contains the dataset, exported model, labels, etc. Pretty much everything used during the process of training the model.  
+
+Model was trained for 3 hours on a NVIDIA GeForce GTX 1050 Ti, final loss was at 0.002, tracked using tensorboard.
 
 # Table of Contents(Folders):
 
