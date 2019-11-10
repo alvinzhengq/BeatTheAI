@@ -2,7 +2,7 @@ import xml.etree.cElementTree as et
 import os
 
 
-pathh = 'C:/Users/agelv/Desktop/rendered_256x256/test'
+pathh = 'Path to dataset'
 
 files = []
 for r, d, f in os.walk(pathh):
@@ -40,7 +40,7 @@ for i in range(len(files)):
         xmax = et.SubElement(bndbox, "xmax").text = "255"
         ymax = et.SubElement(bndbox, "ymax").text = "255"
         tree = et.ElementTree(annotation)
-        tree.write("C:/Users/agelv/Desktop/rendered_256x256/test/n{}.xml".format(files[i].strip('.png')))
+        tree.write("Path to dataset/n{}.xml".format(files[i].strip('.png')))
     elif "n07739125" in files[i]:
         annotation = et.Element("annotation")
 
@@ -71,7 +71,7 @@ for i in range(len(files)):
         xmax = et.SubElement(bndbox, "xmax").text = "255"
         ymax = et.SubElement(bndbox, "ymax").text = "255"
         tree = et.ElementTree(annotation)
-        tree.write("C:/Users/agelv/Desktop/rendered_256x256/test/n{}.xml".format(files[i].strip('.png')))
+        tree.write("Path to dataset/n{}.xml".format(files[i].strip('.png')))
     elif "n07697313" in files[i]:
         print(files[i])
         annotation = et.Element("annotation")
@@ -103,7 +103,7 @@ for i in range(len(files)):
         xmax = et.SubElement(bndbox, "xmax").text = "255"
         ymax = et.SubElement(bndbox, "ymax").text = "255"
         tree = et.ElementTree(annotation)
-        tree.write("C:/Users/agelv/Desktop/rendered_256x256/test/n{}.xml".format(files[i].strip('.png')))
+        tree.write("Path to dataset/n{}.xml".format(files[i].strip('.png')))
     elif "n12997919" in files[i]:
         annotation = et.Element("annotation")
 
@@ -134,7 +134,7 @@ for i in range(len(files)):
         xmax = et.SubElement(bndbox, "xmax").text = "255"
         ymax = et.SubElement(bndbox, "ymax").text = "255"
         tree = et.ElementTree(annotation)
-        tree.write("C:/Users/agelv/Desktop/rendered_256x256/test/n{}.xml".format(files[i].strip('.png')))
+        tree.write("Path to dataset/n{}.xml".format(files[i].strip('.png')))
     elif "n02317335" in files[i]:
         annotation = et.Element("annotation")
 
@@ -165,6 +165,6 @@ for i in range(len(files)):
         xmax = et.SubElement(bndbox, "xmax").text = "255"
         ymax = et.SubElement(bndbox, "ymax").text = "255"
         tree = et.ElementTree(annotation)
-        tree.write("C:/Users/agelv/Desktop/rendered_256x256/test/n{}.xml".format(files[i].strip('.png')))
+        tree.write("Path to dataset/n{}.xml".format(files[i].strip('.png')))
     else:
         continue
