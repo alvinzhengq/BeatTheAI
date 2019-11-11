@@ -12,10 +12,6 @@ import scipy.misc
 from final import guessIMG
 
 
-
-
-
-282222222
 app = Flask(__name__)
 
 seed(1)
